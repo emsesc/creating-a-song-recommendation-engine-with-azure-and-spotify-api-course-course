@@ -86,18 +86,6 @@ steps:
         body: 3.1-html.md
       - type: closeIssue
         issue: 3
-  - title: 'Week 2: Installing Dependencies'
-    description: Using NPM to install necessities.
-    event: issue_comment.created
-    actions:
-      - type: respond
-        with: 02-complete.md
-        issue: 3
-      - type: createIssue
-        title: Week 3
-        body: 3.1-html.md
-      - type: closeIssue
-        issue: 3
   - title: 'Week 3: Creating an HTML Page'
     description: Creating a frontend for our web app.
     event: push
