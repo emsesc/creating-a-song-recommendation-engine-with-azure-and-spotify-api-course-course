@@ -46,7 +46,7 @@ steps:
         issue: 2
       - type: createIssue
         title: Week 2
-        body: 2.5-dependencies.md
+        body: 2.1-dependencies.md
       - type: closeIssue
         issue: 2
   - title: 'Week 2: Installing Dependencies'
@@ -54,26 +54,26 @@ steps:
     event: issue_comment.created
     actions:
       - type: respond
-        with: 2.1-parsing.md
+        with: 2.2-parsing.md
   - title: 'Week 2: Parsing Multipart Data'
     description: Parsing an image for Face API.
     event: issue_comment.created
     actions:
       - type: respond
-        with: 2.2-faceEndpoint.md
+        with: 2.3-faceEndpoint.md
   - title: 'Week 2: Creating a Face API Endpoint'
     description: Connecting Face API components.
     event: issue_comment.created
     actions:
       - type: respond
-        with: 2.3-callFaceParams.md
+        with: 2.4-callFaceParams.md
   - title: 'Week 2: Calling Face API (Parameters)'
     description: Using Face API to analyze image.
     event: issue_comment.created
     link: '{{ repoUrl }}/pull/1'
     actions:
       - type: respond
-        with: 2.4-callFaceFetch.md
+        with: 2.5-callFaceFetch.md
   - title: 'Week 2: Calling Face API (Fetch)'
     description: Retrieving Face API analytics.
     event: issue_comment.created
