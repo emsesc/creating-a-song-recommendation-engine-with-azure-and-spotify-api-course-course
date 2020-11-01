@@ -46,9 +46,15 @@ steps:
         issue: 2
       - type: createIssue
         title: Week 2
-        body: 2.1-parsing.md
+        body: 2.5-dependencies.md
       - type: closeIssue
         issue: 2
+  - title: 'Week 2: Installing Dependencies'
+    description: Using NPM to install necessities.
+    event: issue_comment.created
+    actions:
+      - type: respond
+        with: 2.1-parsing.md
   - title: 'Week 2: Parsing Multipart Data'
     description: Parsing an image for Face API.
     event: issue_comment.created
@@ -73,7 +79,13 @@ steps:
     event: issue_comment.created
     actions:
       - type: respond
-        with: 2.5-dependencies.md
+        with: 02-complete.md
+        issue: 3
+      - type: createIssue
+        title: Week 3
+        body: 3.1-html.md
+      - type: closeIssue
+        issue: 3
   - title: 'Week 2: Installing Dependencies'
     description: Using NPM to install necessities.
     event: issue_comment.created
