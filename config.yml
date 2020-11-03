@@ -46,9 +46,15 @@ steps:
         issue: 2
       - type: createIssue
         title: Week 2
-        body: 2.1-dependencies.md
+        body: 2.0-postman.md
       - type: closeIssue
         issue: 2
+  - title: 'Week 2: Postman'
+    description: Sending a request with Postman.
+    event: issue_comment.created
+    actions:
+      - type: respond
+        with: 2.1-parsing.md
   - title: 'Week 2: Installing Dependencies'
     description: Using NPM to install necessities.
     event: issue_comment.created
