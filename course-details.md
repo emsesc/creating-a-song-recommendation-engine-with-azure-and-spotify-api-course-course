@@ -24,6 +24,7 @@ Serverless architectures offer greater scalability, more flexibility, and quicke
 - Calling Azure Functions
 - Learning HTML/CSS
 - Uploading Images with Forms
+- Deploying with Azure Static Web Apps
 
 ## **Week 4**
 **Learning Objectives**
